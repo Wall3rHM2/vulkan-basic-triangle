@@ -9,4 +9,4 @@
 ## Result
  ![image](https://user-images.githubusercontent.com/38440423/197086587-b7785d13-7893-463d-a811-4b67100005ac.png)
 
-At the moment there is not gonna be a oficial linux support because I don't have enough space to run this on linux to test lmao
+At the moment there is not gonna be a official linux support because I don't have enough space to run this on linux to test lmao
