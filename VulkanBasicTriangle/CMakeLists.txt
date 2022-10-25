@@ -38,7 +38,7 @@ endif()
 if("${CMAKE_VS_PLATFORM_NAME}" STREQUAL "x64")
     target_include_directories(${PROJECT_NAME} PUBLIC
         "$ENV{VULKAN_SDK}/Include;"
-        "${CMAKE_SOURCE_DIR}/external/glfw64/include;"
+        "${CMAKE_BINARY_DIR}/external/glfw64/include;"
     )
 endif()
 
@@ -154,6 +154,9 @@ if("${CMAKE_VS_PLATFORM_NAME}" STREQUAL "x64")
 endif()
 
 file(COPY ${CMAKE_SOURCE_DIR}/shaders DESTINATION ${CMAKE_BINARY_DIR}/bin)
+
+file(COPY ${CMAKE_SOURCE_DIR}/external DESTINATION ${CMAKE_BINARY_DIR})
+
 
 target_link_libraries(${PROJECT_NAME} PRIVATE "${ADDITIONAL_LIBRARY_DEPENDENCIES}")
 
