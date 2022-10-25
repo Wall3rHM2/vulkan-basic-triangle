@@ -1,6 +1,11 @@
 # vulkan-basic-triangle
  A basic and simple as possible render for Vulkan that draws a triangle
 
+# What is Vulkan?
+ Vulkan is a graphics API just like OpenGL and DirectX, except it is insanely more complex, thus what would be a simple
+ code in OpenGL and Direct3D 9 such as a single basic triangle, requires like 800-1000 lines of coding in Vulkan. Vulkan
+ also support multiple platforms and at the moment is the best API when it comes to optimization and performance.
+
 ## Requirements
  Create a environment variable named VULKAN_SDK that contains your vulkan sdk directory including version, eg: "C:\VulkanSDK\1.3.224.1"
  
